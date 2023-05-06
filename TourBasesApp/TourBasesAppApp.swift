@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import CoreLocation
 
 @main
 struct TourBasesAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoriesView()
+                .onAppear {
+                    CLLocationManager().requestWhenInUseAuthorization()
+                }
+                .preferredColorScheme(.dark)
         }
     }
 }
