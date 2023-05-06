@@ -45,10 +45,11 @@ struct Object: Codable, Identifiable  {
     
     static let dummy = Object(
         id: 122,
-        name: "Китайская кухня У ЯшиКитайская кухня У ЯшиКитайская кухня У Яши",
-        description: "Вкусно и быстро!Вкусно и быстро!Вкусно и быстро!Вкусно и быстро!Вкусно и быстро!",
+        name: "Китайская кухня У Яши",
+        description: "Вкусно и быстро!",
         type: "food",
-        icon: "rst-food-fork-drink", color: "warning-10",
+        icon: "rst-food-fork-drink",
+        color: "warning-10",
         image: "https://rsttur.ru/file/crop_61079c8004f4a2.89571598.jpeg",
         close: false,
         lat: 42.650764978649356,

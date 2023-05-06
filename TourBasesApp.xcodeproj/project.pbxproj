@@ -86,6 +86,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F4FFCFE2A069ADD006BF80B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1ECD32A054F2E0040492E /* ObjectCellView.swift */,
+				6FA1ECCE2A0545200040492E /* CategoriesView.swift */,
+				6FA1ECD02A0546E80040492E /* ObjectsView.swift */,
+				6F4FFCFC2A068722006BF80B /* ObjectDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F4FFCFF2A069AF4006BF80B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1ECC82A053E5B0040492E /* BasesDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F4FFD002A069B35006BF80B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1ECD82A05DFB30040492E /* Color+Extensions.swift */,
+				6FA1ECDF2A0663700040492E /* URLCache+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6F4FFD012A069B68006BF80B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1ECCC2A0540A50040492E /* CategoriesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6F4FFD022A069B77006BF80B /* Helpers+Servises */ = {
+			isa = PBXGroup;
+			children = (
+				6F4FFCFA2A0685B6006BF80B /* CSSColors.swift */,
+				6FA1ECE12A06654D0040492E /* NetworkService.swift */,
+			);
+			path = "Helpers+Servises";
+			sourceTree = "<group>";
+		};
 		6FA1EC922A053DCE0040492E = {
 			isa = PBXGroup;
 			children = (
@@ -108,20 +153,15 @@
 		6FA1EC9D2A053DCE0040492E /* TourBasesApp */ = {
 			isa = PBXGroup;
 			children = (
+				6F4FFD022A069B77006BF80B /* Helpers+Servises */,
+				6F4FFD012A069B68006BF80B /* ViewModels */,
+				6F4FFD002A069B35006BF80B /* Extensions */,
+				6F4FFCFF2A069AF4006BF80B /* Models */,
+				6F4FFCFE2A069ADD006BF80B /* Views */,
 				6FA1ECD22A054CA30040492E /* Info.plist */,
 				6FA1EC9E2A053DCE0040492E /* TourBasesAppApp.swift */,
-				6FA1ECD32A054F2E0040492E /* ObjectCellView.swift */,
-				6FA1ECC82A053E5B0040492E /* BasesDataModel.swift */,
-				6FA1ECCE2A0545200040492E /* CategoriesView.swift */,
 				6FA1ECA22A053DD00040492E /* Assets.xcassets */,
 				6FA1ECA42A053DD00040492E /* Preview Content */,
-				6FA1ECCC2A0540A50040492E /* CategoriesViewModel.swift */,
-				6FA1ECD02A0546E80040492E /* ObjectsView.swift */,
-				6FA1ECD82A05DFB30040492E /* Color+Extensions.swift */,
-				6FA1ECDF2A0663700040492E /* URLCache+Extensions.swift */,
-				6FA1ECE12A06654D0040492E /* NetworkService.swift */,
-				6F4FFCFA2A0685B6006BF80B /* CSSColors.swift */,
-				6F4FFCFC2A068722006BF80B /* ObjectDetailView.swift */,
 			);
 			path = TourBasesApp;
 			sourceTree = "<group>";
