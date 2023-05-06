@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6F4FFCFB2A0685B6006BF80B /* CSSColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FFCFA2A0685B6006BF80B /* CSSColors.swift */; };
 		6F4FFCFD2A068722006BF80B /* ObjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FFCFC2A068722006BF80B /* ObjectDetailView.swift */; };
+		6F882D9D2A06A521005A0B4C /* ObjectDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F882D9C2A06A521005A0B4C /* ObjectDetailViewModel.swift */; };
 		6FA1EC9F2A053DCE0040492E /* TourBasesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1EC9E2A053DCE0040492E /* TourBasesAppApp.swift */; };
 		6FA1ECA32A053DD00040492E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA1ECA22A053DD00040492E /* Assets.xcassets */; };
 		6FA1ECA62A053DD00040492E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA1ECA52A053DD00040492E /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		6F4FFCFA2A0685B6006BF80B /* CSSColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSColors.swift; sourceTree = "<group>"; };
 		6F4FFCFC2A068722006BF80B /* ObjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailView.swift; sourceTree = "<group>"; };
+		6F882D9C2A06A521005A0B4C /* ObjectDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailViewModel.swift; sourceTree = "<group>"; };
 		6FA1EC9B2A053DCE0040492E /* TourBasesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourBasesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA1EC9E2A053DCE0040492E /* TourBasesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourBasesAppApp.swift; sourceTree = "<group>"; };
 		6FA1ECA22A053DD00040492E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				6FA1ECCC2A0540A50040492E /* CategoriesViewModel.swift */,
+				6F882D9C2A06A521005A0B4C /* ObjectDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				6FA1ECE22A06654D0040492E /* NetworkService.swift in Sources */,
 				6F4FFCFB2A0685B6006BF80B /* CSSColors.swift in Sources */,
 				6FA1ECD92A05DFB30040492E /* Color+Extensions.swift in Sources */,
+				6F882D9D2A06A521005A0B4C /* ObjectDetailViewModel.swift in Sources */,
 				6FA1ECCD2A0540A50040492E /* CategoriesViewModel.swift in Sources */,
 				6FA1ECE02A0663700040492E /* URLCache+Extensions.swift in Sources */,
 				6FA1EC9F2A053DCE0040492E /* TourBasesAppApp.swift in Sources */,
