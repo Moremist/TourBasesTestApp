@@ -12,14 +12,15 @@ struct ObjectDetailView: View {
     @ObservedObject var viewModel = ObjectDetailViewModel()
     let object: Object
     
+    init(object: Object) {
+        self.object = object
+        UILabel.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).adjustsFontSizeToFitWidth = true
+    }
+    
     var body: some View {
         VStack {
             ScrollView(showsIndicators: false) {
                 VStack {
-                    Text(object.name)
-                        .font(.largeTitle)
-                        .multilineTextAlignment(.center)
-                        .minimumScaleFactor(0.5)
                     
                     CachedAsyncImage(url: URL(string: object.image)) { image in
                         image
@@ -77,6 +78,7 @@ struct ObjectDetailView: View {
             .padding(.vertical, 10)
             .disabled(object.close)
         }
+        .navigationTitle(object.name)
     }
 }
 
