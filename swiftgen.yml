@@ -1,0 +1,9 @@
+input_dir: TourBasesApp/
+output_dir: TourBasesApp/SwiftGen/
+
+xcassets:
+  inputs:
+    - Colors.xcassets
+  outputs:
+    templatePath: TourBasesApp/SwiftGen/Templates/swift5mod.stencil
+    output: ColorsGenerated.swift

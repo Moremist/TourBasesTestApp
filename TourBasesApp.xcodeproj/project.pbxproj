@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F4FFCFB2A0685B6006BF80B /* CSSColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FFCFA2A0685B6006BF80B /* CSSColors.swift */; };
+		6F205D522A1236B200D88EDD /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6F205D512A1236B200D88EDD /* swiftgen.yml */; };
+		6F205D572A12388B00D88EDD /* swift5mod.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 6F205D562A12388B00D88EDD /* swift5mod.stencil */; };
 		6F4FFCFD2A068722006BF80B /* ObjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FFCFC2A068722006BF80B /* ObjectDetailView.swift */; };
 		6F882D9D2A06A521005A0B4C /* ObjectDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F882D9C2A06A521005A0B4C /* ObjectDetailViewModel.swift */; };
 		6FA1EC9F2A053DCE0040492E /* TourBasesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1EC9E2A053DCE0040492E /* TourBasesAppApp.swift */; };
@@ -18,10 +19,13 @@
 		6FA1ECCF2A0545200040492E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1ECCE2A0545200040492E /* CategoriesView.swift */; };
 		6FA1ECD12A0546E80040492E /* ObjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1ECD02A0546E80040492E /* ObjectsView.swift */; };
 		6FA1ECD42A054F2E0040492E /* ObjectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1ECD32A054F2E0040492E /* ObjectCellView.swift */; };
-		6FA1ECD92A05DFB30040492E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1ECD82A05DFB30040492E /* Color+Extensions.swift */; };
 		6FA1ECDE2A06616D0040492E /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 6FA1ECDD2A06616D0040492E /* CachedAsyncImage */; };
 		6FA1ECE02A0663700040492E /* URLCache+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1ECDF2A0663700040492E /* URLCache+Extensions.swift */; };
 		6FA1ECE22A06654D0040492E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1ECE12A06654D0040492E /* NetworkService.swift */; };
+		6FFA84F12A123A8E0096240B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA84F02A123A8E0096240B /* Colors.xcassets */; };
+		6FFA84F32A1249E30096240B /* ColorsGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA84F22A1249E30096240B /* ColorsGenerated.swift */; };
+		A485FCE1703CF7325C129550 /* libPods-TourBasesApp-TourBasesAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E347EB988D9141C0E089D89D /* libPods-TourBasesApp-TourBasesAppTests.a */; };
+		E61DEA5D5360288D9DD0BC8C /* libPods-TourBasesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A485EBDAFACE267840FB923 /* libPods-TourBasesApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F4FFCFA2A0685B6006BF80B /* CSSColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSColors.swift; sourceTree = "<group>"; };
+		04AACABAF1A151E03232B015 /* Pods-TourBasesApp-TourBasesAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourBasesApp-TourBasesAppTests.release.xcconfig"; path = "Target Support Files/Pods-TourBasesApp-TourBasesAppTests/Pods-TourBasesApp-TourBasesAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		402CB22B16AB8E39912FD024 /* Pods-TourBasesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourBasesApp.release.xcconfig"; path = "Target Support Files/Pods-TourBasesApp/Pods-TourBasesApp.release.xcconfig"; sourceTree = "<group>"; };
+		46FB70FDBC1C124A75165475 /* Pods-TourBasesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourBasesApp.debug.xcconfig"; path = "Target Support Files/Pods-TourBasesApp/Pods-TourBasesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4A485EBDAFACE267840FB923 /* libPods-TourBasesApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourBasesApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F205D512A1236B200D88EDD /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
+		6F205D562A12388B00D88EDD /* swift5mod.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swift5mod.stencil; sourceTree = "<group>"; };
 		6F4FFCFC2A068722006BF80B /* ObjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailView.swift; sourceTree = "<group>"; };
 		6F882D9C2A06A521005A0B4C /* ObjectDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetailViewModel.swift; sourceTree = "<group>"; };
 		6FA1EC9B2A053DCE0040492E /* TourBasesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourBasesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,9 +66,12 @@
 		6FA1ECD02A0546E80040492E /* ObjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsView.swift; sourceTree = "<group>"; };
 		6FA1ECD22A054CA30040492E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6FA1ECD32A054F2E0040492E /* ObjectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectCellView.swift; sourceTree = "<group>"; };
-		6FA1ECD82A05DFB30040492E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		6FA1ECDF2A0663700040492E /* URLCache+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLCache+Extensions.swift"; sourceTree = "<group>"; };
 		6FA1ECE12A06654D0040492E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		6FFA84F02A123A8E0096240B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		6FFA84F22A1249E30096240B /* ColorsGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsGenerated.swift; sourceTree = "<group>"; };
+		E347EB988D9141C0E089D89D /* libPods-TourBasesApp-TourBasesAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TourBasesApp-TourBasesAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8A459174E2A1896F2C398A /* Pods-TourBasesApp-TourBasesAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourBasesApp-TourBasesAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TourBasesApp-TourBasesAppTests/Pods-TourBasesApp-TourBasesAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FA1ECDE2A06616D0040492E /* CachedAsyncImage in Frameworks */,
+				E61DEA5D5360288D9DD0BC8C /* libPods-TourBasesApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A485FCE1703CF7325C129550 /* libPods-TourBasesApp-TourBasesAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +102,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		257EA96CE2DCFFFADB827471 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46FB70FDBC1C124A75165475 /* Pods-TourBasesApp.debug.xcconfig */,
+				402CB22B16AB8E39912FD024 /* Pods-TourBasesApp.release.xcconfig */,
+				EA8A459174E2A1896F2C398A /* Pods-TourBasesApp-TourBasesAppTests.debug.xcconfig */,
+				04AACABAF1A151E03232B015 /* Pods-TourBasesApp-TourBasesAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F08F0B32A122D730009BB83 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				6F205D532A12371E00D88EDD /* Templates */,
+				6FFA84F22A1249E30096240B /* ColorsGenerated.swift */,
+				6F205D512A1236B200D88EDD /* swiftgen.yml */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		6F205D532A12371E00D88EDD /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				6F205D562A12388B00D88EDD /* swift5mod.stencil */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
 		6F4FFCFE2A069ADD006BF80B /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +153,6 @@
 		6F4FFD002A069B35006BF80B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6FA1ECD82A05DFB30040492E /* Color+Extensions.swift */,
 				6FA1ECDF2A0663700040492E /* URLCache+Extensions.swift */,
 			);
 			path = Extensions;
@@ -128,7 +170,6 @@
 		6F4FFD022A069B77006BF80B /* Helpers+Servises */ = {
 			isa = PBXGroup;
 			children = (
-				6F4FFCFA2A0685B6006BF80B /* CSSColors.swift */,
 				6FA1ECE12A06654D0040492E /* NetworkService.swift */,
 			);
 			path = "Helpers+Servises";
@@ -139,7 +180,8 @@
 			children = (
 				6FA1EC9D2A053DCE0040492E /* TourBasesApp */,
 				6FA1EC9C2A053DCE0040492E /* Products */,
-				6FA1ECDC2A06616D0040492E /* Frameworks */,
+				257EA96CE2DCFFFADB827471 /* Pods */,
+				842E9176A96BBCD69139F575 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +198,7 @@
 		6FA1EC9D2A053DCE0040492E /* TourBasesApp */ = {
 			isa = PBXGroup;
 			children = (
+				6F08F0B32A122D730009BB83 /* SwiftGen */,
 				6F4FFD022A069B77006BF80B /* Helpers+Servises */,
 				6F4FFD012A069B68006BF80B /* ViewModels */,
 				6F4FFD002A069B35006BF80B /* Extensions */,
@@ -164,6 +207,7 @@
 				6FA1ECD22A054CA30040492E /* Info.plist */,
 				6FA1EC9E2A053DCE0040492E /* TourBasesAppApp.swift */,
 				6FA1ECA22A053DD00040492E /* Assets.xcassets */,
+				6FFA84F02A123A8E0096240B /* Colors.xcassets */,
 				6FA1ECA42A053DD00040492E /* Preview Content */,
 			);
 			path = TourBasesApp;
@@ -177,9 +221,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6FA1ECDC2A06616D0040492E /* Frameworks */ = {
+		842E9176A96BBCD69139F575 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A485EBDAFACE267840FB923 /* libPods-TourBasesApp.a */,
+				E347EB988D9141C0E089D89D /* libPods-TourBasesApp-TourBasesAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,6 +237,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FA1ECBF2A053DD00040492E /* Build configuration list for PBXNativeTarget "TourBasesApp" */;
 			buildPhases = (
+				0F109AC35D5993B831B6034E /* [CP] Check Pods Manifest.lock */,
+				6F5A67182A123667006E3855 /* SwiftGen */,
 				6FA1EC972A053DCE0040492E /* Sources */,
 				6FA1EC982A053DCE0040492E /* Frameworks */,
 				6FA1EC992A053DCE0040492E /* Resources */,
@@ -211,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FA1ECC22A053DD00040492E /* Build configuration list for PBXNativeTarget "TourBasesAppTests" */;
 			buildPhases = (
+				40026E227F8223DF06383503 /* [CP] Check Pods Manifest.lock */,
 				6FA1ECA72A053DD00040492E /* Sources */,
 				6FA1ECA82A053DD00040492E /* Frameworks */,
 				6FA1ECA92A053DD00040492E /* Resources */,
@@ -294,8 +343,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFA84F12A123A8E0096240B /* Colors.xcassets in Resources */,
 				6FA1ECA62A053DD00040492E /* Preview Assets.xcassets in Resources */,
+				6F205D572A12388B00D88EDD /* swift5mod.stencil in Resources */,
 				6FA1ECA32A053DD00040492E /* Assets.xcassets in Resources */,
+				6F205D522A1236B200D88EDD /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,19 +367,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F109AC35D5993B831B6034E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TourBasesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40026E227F8223DF06383503 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TourBasesApp-TourBasesAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5A67182A123667006E3855 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FA1EC972A053DCE0040492E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6FA1ECD12A0546E80040492E /* ObjectsView.swift in Sources */,
+				6FFA84F32A1249E30096240B /* ColorsGenerated.swift in Sources */,
 				6F4FFCFD2A068722006BF80B /* ObjectDetailView.swift in Sources */,
 				6FA1ECD42A054F2E0040492E /* ObjectCellView.swift in Sources */,
 				6FA1ECCF2A0545200040492E /* CategoriesView.swift in Sources */,
 				6FA1ECC92A053E5B0040492E /* BasesDataModel.swift in Sources */,
 				6FA1ECE22A06654D0040492E /* NetworkService.swift in Sources */,
-				6F4FFCFB2A0685B6006BF80B /* CSSColors.swift in Sources */,
-				6FA1ECD92A05DFB30040492E /* Color+Extensions.swift in Sources */,
 				6F882D9D2A06A521005A0B4C /* ObjectDetailViewModel.swift in Sources */,
 				6FA1ECCD2A0540A50040492E /* CategoriesViewModel.swift in Sources */,
 				6FA1ECE02A0663700040492E /* URLCache+Extensions.swift in Sources */,
@@ -481,6 +597,7 @@
 		};
 		6FA1ECC02A053DD00040492E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FB70FDBC1C124A75165475 /* Pods-TourBasesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -503,7 +620,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Kuzmich.TourBasesApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Kuzmich.TourBasesAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -513,6 +630,7 @@
 		};
 		6FA1ECC12A053DD00040492E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402CB22B16AB8E39912FD024 /* Pods-TourBasesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -535,7 +653,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Kuzmich.TourBasesApp;
+				PRODUCT_BUNDLE_IDENTIFIER = Kuzmich.TourBasesAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -545,6 +663,7 @@
 		};
 		6FA1ECC32A053DD00040492E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8A459174E2A1896F2C398A /* Pods-TourBasesApp-TourBasesAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -565,6 +684,7 @@
 		};
 		6FA1ECC42A053DD00040492E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AACABAF1A151E03232B015 /* Pods-TourBasesApp-TourBasesAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -28,6 +28,11 @@ class CategoriesViewModel: ObservableObject {
             .store(in: &commonCancellables)
     }
     
+    func getObjectsByCategory(_ category: Category) -> [Object] {
+        guard let response = response else { return [] }
+        return response.data.objects.filter { $0.type == category.type }
+    }
+    
     func fetchBasesData() async {
         if let data: BasesDataModel = await networkService.fetchData(urlString: urlString) {
             self.responseSubject.send(data)

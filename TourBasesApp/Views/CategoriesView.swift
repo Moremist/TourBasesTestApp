@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CategoriesView: View {
-    @ObservedObject var viewModel = CategoriesViewModel()
+    @StateObject var viewModel = CategoriesViewModel()
     
     var body: some View {
         NavigationView {
@@ -16,7 +16,7 @@ struct CategoriesView: View {
                 if let response = viewModel.response {
                     ForEach(response.data.categories, id: \.name) { category in
                         NavigationLink {
-                            ObjectsView(title: category.name, objects: response.data.objects.filter { $0.type == category.type })
+                            ObjectsView(title: category.name, objects: viewModel.getObjectsByCategory(category))
                         } label: {
                             HStack {
                                 Text(category.name)
@@ -24,7 +24,7 @@ struct CategoriesView: View {
                                 ZStack {
                                     Circle()
                                         .foregroundColor(
-                                            CSSColors.getColorBy(name: category.color)
+                                            ColorAsset(name: category.color).swiftUIColor
                                         )
                                     Text(category.count.description)
                                 }

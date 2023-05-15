@@ -9,7 +9,7 @@ import SwiftUI
 import CachedAsyncImage
 
 struct ObjectDetailView: View {
-    @ObservedObject var viewModel = ObjectDetailViewModel()
+    @StateObject var viewModel = ObjectDetailViewModel()
     let object: Object
     
     init(object: Object) {
@@ -51,7 +51,6 @@ struct ObjectDetailView: View {
                             }
                         }
                         .padding(.vertical, 5)
-                        
                     }
                     
                     Spacer()
@@ -60,15 +59,16 @@ struct ObjectDetailView: View {
             }
             
             Divider()
-
+            
             Button {
                 viewModel.open2Gis(lon: object.lon, lat: object.lat)
             } label: {
                 ZStack {
                     Rectangle()
-                        .foregroundColor(object.close ? .gray : .green)
+                        .foregroundColor(.green)
                         .cornerRadius(15)
-                    Text(object.close ? "Сейчас закрыто" : "Проложить маршрут 2Gis")
+                    
+                    Text("Проложить маршрут 2Gis")
                         .foregroundColor(.white)
                         .font(.headline)
                 }
@@ -76,7 +76,6 @@ struct ObjectDetailView: View {
             .frame(height: 50)
             .padding(.horizontal, 20)
             .padding(.vertical, 10)
-            .disabled(object.close)
         }
         .navigationTitle(object.name)
     }

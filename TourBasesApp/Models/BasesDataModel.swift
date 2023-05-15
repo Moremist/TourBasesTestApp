@@ -26,7 +26,7 @@ struct Geo: Codable  {
     let lat, lon: Double
 }
 
-struct Category: Codable  {
+struct Category: Codable, Hashable  {
     let name, type, icon, color: String
     let count: Int
 }
